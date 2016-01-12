@@ -4,7 +4,7 @@
     <string name="country">Country name: </string>
     <string name="auto_complete_colors">Auto Complete Colors...</string>
 
-    <string-array name="Nations">
+    <string-array name="Countries1">
         <item>Afghanistan</item>
         <item>Albania</item>
         <item>Algeria</item>

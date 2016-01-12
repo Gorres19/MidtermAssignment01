@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        String[] country = getResources().getStringArray(R.array.Nations);
+        String[] country = getResources().getStringArray(R.array.Countries1);
         Adapt = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, country);
 
         AutoComp = (AutoCompleteTextView) findViewById(R.id.autoComplete);
